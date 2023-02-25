@@ -74,12 +74,6 @@ select {
 }
 /*END of RESET*/
 
-* {
-    border-color: black;
-    border-width: 2px;
-    border-style: dashed;
-}
-
 /*Text formatting*/
 html {
     font-size: 100%;
