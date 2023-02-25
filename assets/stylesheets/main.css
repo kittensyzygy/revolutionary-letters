@@ -168,6 +168,10 @@ h2 {
     margin-bottom: 1em;
 }
 
+header h2 {
+    margin-top: 1em;
+}
+
 p {
     margin-left: 4ch;
     text-indent: -4ch;
