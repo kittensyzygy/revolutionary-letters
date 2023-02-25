@@ -85,6 +85,7 @@ h1, h2 {
 
 h1 {
     font-size: 300%;
+    text-decoration: underline;
 }
 
 nav, .nav, p, .jumptotoc, footer li {
@@ -118,8 +119,12 @@ a :link { color: #0000EE; }
 a :visited { color: #551A8B; }
 
 /*Page colours*/
+html {
+    background-color: floralwhite;
+}
+
 nav {
-    background-color: LemonChiffon;
+    background-color: LightYellow;
 }
 
 /*Page layout*/
@@ -227,6 +232,13 @@ p {
 }
 
 footer {
+    text-align: center;
     font-size: small;
-    margin-bottom: 3em;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 3vh;
+}
+
+footer li {
+    display: inline;
 }
