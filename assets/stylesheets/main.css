@@ -74,6 +74,12 @@ select {
 }
 /*END of RESET*/
 
+* {
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+}
+
 /*Text formatting*/
 html {
     font-size: 100%;
@@ -136,6 +142,7 @@ body {
 
 .containerparent {
     display: flex;
+    flex-direction: column;
     margin-left: 2vh;
     margin-right: 2vh;
     margin-bottom: 2em;
