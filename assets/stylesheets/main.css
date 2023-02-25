@@ -87,12 +87,11 @@ h1 {
     font-size: 300%;
 }
 
-nav, .nav, p, .jumptotoc {
+nav, .nav, p, .jumptotoc, footer li {
     line-height: 1.5em;
-    font-family: 'Rubik', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    }
 
-ul, ol {
+ul, ol, nav, .nav, p, .jumptotoc {
     font-family: 'Rubik', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -149,7 +148,7 @@ nav {
     border-radius: 10px;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -220,4 +219,10 @@ p {
 .date {
     text-align: right;
     margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+footer {
+    font-size: small;
+    margin-bottom: 3em;
 }
