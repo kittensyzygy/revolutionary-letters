@@ -136,6 +136,9 @@ nav {
 }
 
 /*Page layout*/
+html, body {
+    overflow-x: hidden;
+}
 
 
 body {
