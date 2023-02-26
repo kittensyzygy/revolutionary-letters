@@ -96,13 +96,12 @@ nav, #toc, p, .jumptotoc {
     line-height: 1.5em;
     }
 
-ol, #toc, p, .jumptotoc {
+ol, #toc, p {
     font-family: 'Rubik', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav {
+nav, .jumptotoc {
     font-family: 'Chivo Mono', 'Courier New', Courier, monospace;
-    font-weight: 500;
 }
 
 .dedication {
@@ -113,7 +112,7 @@ nav {
     font-style: italic;
 }
 
-.poemdedication p, .dedication, .poemnote {
+nav, .poemdedication p, .dedication, .poemnote {
     font-weight: 500;
 }
 
