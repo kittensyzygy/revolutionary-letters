@@ -96,7 +96,7 @@ nav, #toc, p, .jumptotoc {
     line-height: 1.5em;
     }
 
-ol, #toc, p {
+ol, #toc, p, .notes h2 {
     font-family: 'Rubik', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -119,6 +119,14 @@ nav, .poemdedication p, .dedication, .poemnote {
 .poemdedication p, .dedication {
     font-family: 'EB Garamond', Georgia, 'Time New Roman', serif;
     font-size: large;
+}
+
+.notes, footer {
+    font-size: small;
+}
+
+footer {
+    text-align: center;
 }
 
 a :link { color: #0000EE; }
@@ -184,6 +192,11 @@ p {
     text-indent: -4ch;
 }
 
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .onechin {
     text-indent: -2ch;
 }
@@ -233,9 +246,7 @@ p {
     margin-bottom: 5em;
 }
 
-footer p {
-    text-align: center;
-    font-size: small;
+footer, .notes p {
     margin-left: 0;
     text-indent: 0;
 }
