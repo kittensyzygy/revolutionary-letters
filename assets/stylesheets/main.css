@@ -246,7 +246,7 @@ ol {
     margin-bottom: 5em;
 }
 
-footer, .notes p {
+footer p, .notes p {
     margin-left: 0;
     text-indent: 0;
 }
