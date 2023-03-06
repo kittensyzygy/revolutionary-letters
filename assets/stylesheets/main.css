@@ -217,6 +217,10 @@ ol {
     text-indent: 8ch;
 }
 
+.seventeenchin {
+    text-indent: 9ch;
+}
+
 .nineteenchin {
     text-indent: 11ch;
 }
